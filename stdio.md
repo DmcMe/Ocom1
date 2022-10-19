@@ -1,7 +1,7 @@
 ### การใช้ standrad Input/ Output
 # C language
 - `string` ในที่นี้หมายถึง `char[]` arrayทั้งหมดของ char 
-- ต้องมีการ `#include <stdio.h>` ทุกครั้งการจะใช้ฟังชั่น input output
+- ต้องมีการ `#include <stdio.h>` ทุกครั้งก่อนจะใช้ฟังชั่น input output
 
 printf()
 
@@ -19,5 +19,16 @@ printf()
 int x = 5;
 float y = 1;
 char z = 'z';
-printf("")
+printf("%d\n",x);
+printf("%.2f\n",y);
+printf("%c\n",z);
+```
+
+สิ่งที่ได้
+
+```
+5
+1.00
+z
+
 ```
